@@ -1,0 +1,87 @@
+.uber {
+    padding: 14px 25px 14px 25px;
+    margin: 12px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.20s;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+
+.uber:hover{
+    opacity: 0.8;
+}
+
+.amazon {
+    margin: 12px;
+    height: 50px;
+    width: 230px;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.github {
+    margin: 12px;
+    background-color: rgb(46, 164, 79);
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.20s;
+}
+
+.github:hover {
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.20);
+}
+
+.bootstrap {
+    margin: 12px;
+    background-color: white;
+    border-color: rgb(108, 117, 125);
+    height: 50px;
+    width: 125px;
+    font-size: 15px;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.20s, color 0.20s;
+}
+
+.bootstrap:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin {
+    margin: 12px;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    height: 55px;
+    width: 250px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin:hover{
+    background-color: rgba(0, 55, 109, 0.833);
+}
